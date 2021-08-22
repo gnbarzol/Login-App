@@ -1,0 +1,63 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.card-login {
+  width: 400px;
+  height: 500px;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #d9d9d9,
+               -20px -20px 60px #ffffff;
+}
+
+.card-login-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+
+}
+
+.title {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #171010;
+}
+
+.link {
+  text-align: center;
+  cursor: pointer;
+
+  a {
+      text-decoration: none;
+  }
+}
+
+.field {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin: 15px 0 5px 0;
+  cursor: pointer;
+}
+
+.bad-login {
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.content-spinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

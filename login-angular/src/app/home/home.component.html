@@ -1,0 +1,10 @@
+<p>Bienvenido al sistema :)</p>
+
+<div *ngFor="let blog of blogs" >
+    <p>Titulo del Blog: {{blog.titulo}}</p>
+</div>
+
+<div>
+    <button (click)="getBlogs()">Pedir Los blogs</button>
+    <button (click)="cerrarSesion()">Cerrar Sesión</button>
+</div>

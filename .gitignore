@@ -1,0 +1,69 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+login-angular/dist
+login-angular/tmp
+login-angular/out-tsc
+# Only exists if Bazel was run
+login-angular/bazel-out
+
+# dependencies
+/node_modules
+login-angular/node_modules
+login-express/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+login-angular/.idea
+login-angular/.project
+login-angular/.classpath
+login-angular/.c9/
+login-angular/*.launch
+login-angular/.settings/
+login-angular/*.sublime-workspace
+
+login-express/.idea
+login-express/.project
+login-express/.classpath
+login-express/.c9/
+login-express/*.launch
+login-express/.settings/
+login-express/*.sublime-workspace
+
+# IDE - VSCode
+login-angular/.vscode/*
+login-angular/!.vscode/settings.json
+login-angular/!.vscode/tasks.json
+login-angular/!.vscode/launch.json
+login-angular/!.vscode/extensions.json
+login-angular/.history/*
+
+login-express/.vscode/*
+login-express/!.vscode/settings.json
+login-express/!.vscode/tasks.json
+login-express/!.vscode/launch.json
+login-express/!.vscode/extensions.json
+login-express/.history/*
+
+# misc
+login-angular/.sass-cache
+login-angular/connect.lock
+login-angular/coverage
+login-angular/libpeerconnection.log
+login-angular/npm-debug.log
+login-angular/yarn-error.log
+login-angular/testem.log
+login-angular/typings
+
+# System Files
+login-angular/.DS_Store
+login-express/.DS_Store
+login-angular/Thumbs.db
+login-express/Thumbs.db
+
+
+# Enviroments
+login-express/.env
